@@ -3,6 +3,94 @@
   <component name="LeetcodeEditor">
     <option name="projectConfig">
       <map>
+        <entry key="$PROJECT_DIR$/src/main/java/com/mengfg/leetcode/editor/cn/Problem_121_BestTimeToBuyAndSellStock.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/mengfg/leetcode/editor/cn/Problem_121_BestTimeToBuyAndSellStock.java" />
+              <option name="questionId" value="121" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/mengfg/leetcode/editor/cn/Problem_136_SingleNumber.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/mengfg/leetcode/editor/cn/Problem_136_SingleNumber.java" />
+              <option name="questionId" value="136" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/mengfg/leetcode/editor/cn/Problem_217_ContainsDuplicate.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/mengfg/leetcode/editor/cn/Problem_217_ContainsDuplicate.java" />
+              <option name="questionId" value="217" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/mengfg/leetcode/editor/cn/Problem_219_ContainsDuplicateIi.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/mengfg/leetcode/editor/cn/Problem_219_ContainsDuplicateIi.java" />
+              <option name="questionId" value="219" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/mengfg/leetcode/editor/cn/Problem_231_PowerOfTwo.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/mengfg/leetcode/editor/cn/Problem_231_PowerOfTwo.java" />
+              <option name="questionId" value="231" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/mengfg/leetcode/editor/cn/Problem_342_PowerOfFour.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/mengfg/leetcode/editor/cn/Problem_342_PowerOfFour.java" />
+              <option name="questionId" value="342" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/mengfg/leetcode/editor/cn/Problem_38_CountAndSay.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/mengfg/leetcode/editor/cn/Problem_38_CountAndSay.java" />
+              <option name="questionId" value="38" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/mengfg/leetcode/editor/cn/Problem_66_PlusOne.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/mengfg/leetcode/editor/cn/Problem_66_PlusOne.java" />
+              <option name="questionId" value="66" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/mengfg/leetcode/editor/cn/Problem_67_AddBinary.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/mengfg/leetcode/editor/cn/Problem_67_AddBinary.java" />
+              <option name="questionId" value="67" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/mengfg/leetcode/editor/cn/Problem_70_ClimbingStairs.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/mengfg/leetcode/editor/cn/Problem_70_ClimbingStairs.java" />
+              <option name="questionId" value="70" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/mengfg/leetcode/editor/cn/Problem_7_ReverseInteger.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/mengfg/leetcode/editor/cn/Problem_7_ReverseInteger.java" />
+              <option name="questionId" value="7" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/mengfg/leetcode/editor/cn/Problem_912_SortAnArray .java">
           <value>
             <LeetcodeEditor>
