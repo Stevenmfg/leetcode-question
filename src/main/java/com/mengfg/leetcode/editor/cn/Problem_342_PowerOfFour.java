@@ -54,6 +54,7 @@ class Problem_342_PowerOfFour {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public boolean isPowerOfFour(int n) {
+            // TODO::
             return false;
         }
     }
