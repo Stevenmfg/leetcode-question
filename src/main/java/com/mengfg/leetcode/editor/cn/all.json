@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[1104]二叉树寻路",
-    "frontendQuestionId": "1104",
+    "formTitle": "[987]二叉树的垂序遍历",
+    "frontendQuestionId": "987",
     "leaf": true,
-    "level": 2,
+    "level": 3,
     "nodeType": "def",
-    "questionId": "1194",
+    "questionId": "1029",
     "status": "",
-    "title": "二叉树寻路",
-    "titleSlug": "path-in-zigzag-labelled-binary-tree"
+    "title": "二叉树的垂序遍历",
+    "titleSlug": "vertical-order-traversal-of-a-binary-tree"
   },
   {
     "articleLive": 2,
@@ -643,7 +643,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "53",
-    "status": "",
+    "status": "ac",
     "title": "最大子序和",
     "titleSlug": "maximum-subarray"
   },
@@ -703,7 +703,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "58",
-    "status": "notac",
+    "status": "ac",
     "title": "最后一个单词的长度",
     "titleSlug": "length-of-last-word"
   },
@@ -1003,7 +1003,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "83",
-    "status": "",
+    "status": "ac",
     "title": "删除排序链表中的重复元素",
     "titleSlug": "remove-duplicates-from-sorted-list"
   },
@@ -1063,7 +1063,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "88",
-    "status": "",
+    "status": "ac",
     "title": "合并两个有序数组",
     "titleSlug": "merge-sorted-array"
   },
@@ -2053,14 +2053,14 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[171]Excel表列序号",
+    "formTitle": "[171]Excel 表列序号",
     "frontendQuestionId": "171",
     "leaf": true,
     "level": 1,
     "nodeType": "def",
     "questionId": "171",
     "status": "",
-    "title": "Excel表列序号",
+    "title": "Excel 表列序号",
     "titleSlug": "excel-sheet-column-number"
   },
   {
@@ -11845,18 +11845,6 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[987]二叉树的垂序遍历",
-    "frontendQuestionId": "987",
-    "leaf": true,
-    "level": 3,
-    "nodeType": "def",
-    "questionId": "1029",
-    "status": "",
-    "title": "二叉树的垂序遍历",
-    "titleSlug": "vertical-order-traversal-of-a-binary-tree"
-  },
-  {
-    "articleLive": 2,
     "formTitle": "[988]从叶结点开始的最小字符串",
     "frontendQuestionId": "988",
     "leaf": true,
@@ -13246,6 +13234,18 @@
     "status": "",
     "title": "分糖果 II",
     "titleSlug": "distribute-candies-to-people"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1104]二叉树寻路",
+    "frontendQuestionId": "1104",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1194",
+    "status": "",
+    "title": "二叉树寻路",
+    "titleSlug": "path-in-zigzag-labelled-binary-tree"
   },
   {
     "articleLive": 2,
