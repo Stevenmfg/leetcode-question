@@ -1327,7 +1327,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "110",
-    "status": "",
+    "status": "ac",
     "title": "平衡二叉树",
     "titleSlug": "balanced-binary-tree"
   },
