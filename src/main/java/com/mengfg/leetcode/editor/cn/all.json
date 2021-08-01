@@ -1735,7 +1735,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "144",
-    "status": "",
+    "status": "ac",
     "title": "二叉树的前序遍历",
     "titleSlug": "binary-tree-preorder-traversal"
   },
