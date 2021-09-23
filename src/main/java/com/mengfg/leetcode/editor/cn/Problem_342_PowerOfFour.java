@@ -49,13 +49,32 @@ package com.mengfg.leetcode.editor.cn;
 class Problem_342_PowerOfFour {
     public static void main(String[] args) {
         Solution solution = new Problem_342_PowerOfFour().new Solution();
+        for (int i = 0; i < 1000; i++) {
+            if (solution.isPowerOfFour(i)) {
+                System.out.println(i);
+            }
+        }
     }
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public boolean isPowerOfFour(int n) {
-            // TODO::
-            return false;
+            if (n <= 0) {
+                return false;
+            }
+
+            if (n == 1) {
+                return true;
+            }
+
+            while (n != 1) {
+                if (n % 4 != 0) {
+                    return false;
+                }
+                n /= 4;
+            }
+
+            return true;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
