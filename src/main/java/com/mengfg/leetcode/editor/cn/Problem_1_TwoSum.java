@@ -46,13 +46,12 @@
 
 package com.mengfg.leetcode.editor.cn;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.Arrays;
 
 class Problem_1_TwoSum {
     public static void main(String[] args) {
         Solution solution = new Problem_1_TwoSum().new Solution();
-        int[] ints = solution.twoSum(new int[]{1, 2, 3}, 4);
+        int[] ints = solution.twoSum(new int[]{2, 7, 11, 15}, 9);
         StringBuilder sb = new StringBuilder();
         for (int anInt : ints) {
             sb.append(anInt).append(",");
@@ -63,12 +62,17 @@ class Problem_1_TwoSum {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int[] twoSum(int[] nums, int target) {
-            Map<Integer, Integer> map = new HashMap<>();
-            for (int i = 0; i < nums.length; i++) {
-                if (map.containsKey(target - nums[i])) {
-                    return new int[]{map.get(target - nums[i]), i};
+            Arrays.sort(nums);
+            int leftIndex = 0;
+            int rightIndex = nums.length - 1;
+            while (leftIndex < rightIndex) {
+                if (nums[leftIndex] + nums[rightIndex] == target) {
+                    return new int[]{leftIndex, rightIndex};
+                } else if (nums[leftIndex] + nums[rightIndex] > target) {
+                    rightIndex--;
+                } else {
+                    leftIndex++;
                 }
-                map.put(nums[i], i);
             }
             return null;
         }
