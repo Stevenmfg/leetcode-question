@@ -54,11 +54,18 @@ import java.util.Set;
 class Problem_3_LongestSubstringWithoutRepeatingCharacters {
     public static void main(String[] args) {
         Solution solution = new Problem_3_LongestSubstringWithoutRepeatingCharacters().new Solution();
-        System.out.println(solution.lengthOfLongestSubstring("abcabcbb"));
+        System.out.println(solution.lengthOfLongestSubstring("asdegeba"));
+        System.out.println(solution.lengthOfLongestSubstring2("asdegeba"));
     }
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
+        /**
+         * 快慢指针
+         *
+         * @param s
+         * @return
+         */
         public int lengthOfLongestSubstring(String s) {
             int length = s.length();
             if (length == 0 || length == 1) {
@@ -82,6 +89,29 @@ class Problem_3_LongestSubstringWithoutRepeatingCharacters {
                 res = Math.max(res, rk - i + 1);
             }
 
+            return res;
+        }
+
+        /**
+         * 动态规划，是不可以的，因为没法儿判断是否含有重复字符
+         *
+         * @param s
+         * @return
+         */
+        @Deprecated
+        public int lengthOfLongestSubstring2(String s) {
+            int length = s.length();
+            if (length == 0 || length == 1) {
+                return length;
+            }
+            // dp[i]表示以s.charAt(i)结尾的最长子串是多少
+            int[] dp = new int[s.length()];
+            dp[0] = 1;
+            int res = 0;
+            for (int i = 1; i < s.length(); i++) {
+                dp[i] = s.charAt(i - dp[i - 1]) == s.charAt(i) ? 1 : dp[i - 1] + 1;
+                res = Math.max(dp[i], res);
+            }
             return res;
         }
     }
